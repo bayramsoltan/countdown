@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Boldonse&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Boldonse", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-image: url("./newyear.jpg");
+    background-size: cover;
+    color:white;
+    flex-wrap: wrap;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 5px 5px rgb(255, 111, 0);
+    margin-top: 4rem;
+}
+
+.counter-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: larger;
+}
+.counter-container p{
+    font-size: 4rem;
+    text-shadow: 4px 3px rgba(23, 8, 8, 0.444);
+}
+
+.counter-container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
